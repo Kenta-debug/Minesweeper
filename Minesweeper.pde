@@ -30,8 +30,8 @@ void setup ()
 public void setMines()
 {
     //your code
-    int row = (int)(Math.random()*(NUM_ROWS+1));
-    int col = (int)(Math.random()*(NUM_COLS+1));
+    private int row = (int)(Math.random()*(NUM_ROWS+1));
+    private int col = (int)(Math.random()*(NUM_COLS+1));
 }
 
 public void draw ()
